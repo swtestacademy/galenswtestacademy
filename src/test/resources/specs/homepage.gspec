@@ -22,10 +22,10 @@
            #31 px below the header
            below header 31px
            #Image comparison with %2 precision ratio
-           #analyze-offset searches best fitting offset and will compare images with it.
-           image file sw-logo.png, error %5, analyze-offset 150
-
+           image file sw-logo.png, error %5
+       
        #Each navigation links must be alligned horizontally to each other
+       #itemName -> Current item and nextItem -> Next item
        @forEach [navigation-links-*] as itemName, next as nextItem
            ${itemName}:
                aligned horizontally all ${nextItem}
